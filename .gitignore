@@ -1,0 +1,100 @@
+# ===============================
+# Gitignore para projeto Java (NetBeans + JDBC + PostgreSQL + JavaFX)
+# ===============================
+
+# === NetBeans ===
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+*.bak
+*.orig
+
+# === Arquivos de Compilação ===
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# === Configuração de IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# Eclipse (caso alguém abra o projeto por lá)
+.project
+.classpath
+.settings/
+
+# === Dependências locais ===
+# (Se estiver usando libs JDBC/JavaFX baixadas manualmente)
+lib/
+libs/
+*.dll
+*.so
+*.dylib
+
+# === Banco de Dados (dados locais) ===
+*.db
+*.sql~
+*.dump
+*.log
+
+# === Arquivos Temporários e Cache ===
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# === Arquivos do Sistema ===
+desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.old
+
+# === Arquivos do Maven/Gradle (se o projeto tiver suporte híbrido) ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Logs ===
+*.log
+*.out
+*.err
+
+# === Arquivos de execução temporários ===
+hs_err_pid*
+replay_pid*
