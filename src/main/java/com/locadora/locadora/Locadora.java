@@ -5,6 +5,8 @@
 
 package com.locadora.locadora;
 
+import com.locadora.locadora.models.Cliente;
+
 /**
  *
  * @author judok
@@ -12,6 +14,6 @@ package com.locadora.locadora;
 public class Locadora {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      
     }
 }
